@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="author" content="dhiraj basukala">
+  <!-- Import manifest.json -->
+  <link rel="manifest" href="./manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#b6ca32">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <title>eVertebrates</title>
+  <style>
+    body{
+      margin:0;padding:0;
+      min-height:100%;
+    }
+    .initial-loader{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      color: #999;
+    }
+    .initial-loader h1{
+      font-weight: normal;
+    }
+    .initial-loader span{
+      display:block;
+      text-align:center;
+      font-size:16px;
+      padding:10px;
+    }
+    .initial-loader img{
+      opacity:0.2;
+    }
+  </style>
+<link href="/style.css" rel="stylesheet"></head>
+<body>
+  <div id="app">
+    <div class="initial-loader">
+      <img src="/assets/images/spine.png"/>
+      <h1>eVertebrates<span>Loading ...</span></h1>
+    </div>
+  </div>
+  <noscript>Your browser does not support JavaScript!</noscript>
+<script type="text/javascript" src="/bundle.js"></script></body>
+</html>
